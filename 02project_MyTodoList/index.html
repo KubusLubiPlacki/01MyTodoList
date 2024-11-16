@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="container" autocomplete="off">
+        <h1>My Todo List !</h1>
+        <input type="text" id="name" onfocus="this.value=''">
+        <button id="add">Add new task</button>
+        <p>Todo:</p>
+        <ul class="tasks"></ul>
+        <p id="result">Done:0</p>
+    </form>
+    <script type="module" src="dist/app.js"></script>
+</body>
+</html>
